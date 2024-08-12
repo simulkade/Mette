@@ -1,0 +1,29 @@
+
+[project]
+name = "mette"
+version = "0.0.1"
+authors = [
+    { name="Ali A. Eftekhari", email="e.eftekhari@gmail.com" },
+]
+description = "MacKay Energy Transition to Earth"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Energy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/simulkade/mette"
+"Bug Tracker" = "https://github.com/simulkade/mette/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "numpy", "scipy>=1.8.0", "matplotlib", "pandas", "seaborn"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

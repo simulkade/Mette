@@ -1,0 +1,12 @@
+*.bak
+*.pyc
+*.mat
+.vscode/settings.json
+.ipynb_checkpoints/
+.virtual_documents/
+vscode/
+build/
+dist/
+__pycache__/
+src/mette.egg-info/
+src/mette/__pycache__/
